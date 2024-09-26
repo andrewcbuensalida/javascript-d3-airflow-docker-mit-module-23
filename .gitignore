@@ -1,5 +1,37 @@
 local_models
+# Airflow logs
+logs/
+airflow.log
 
+# Airflow configuration
+airflow.cfg
+unittests.cfg
+
+# SQLite database
+airflow.db
+
+# Dags folder (if you want to ignore all DAGs)
+# Uncomment the following line if you want to ignore all DAGs
+# dags/
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+
+# Docker related files
+docker-compose.yml
+.dockerignore
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
